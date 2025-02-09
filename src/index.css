@@ -7,3 +7,12 @@
 .max-width {
   @apply max-w-[1440px]
 }
+.background-gradient-hero {
+  background: linear-gradient(252deg, #CAD4FF 0%, #DAFFE1 53.69%);
+}
+.vertical-line {
+  width: 0px;
+  height: 134px;
+  flex-shrink: 0;
+  border-left: 2px solid rgba(0, 0, 0, 0.20);
+}

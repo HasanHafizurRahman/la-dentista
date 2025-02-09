@@ -2,7 +2,7 @@ import ladentistaHero from "../assets/ladentistaHero.png";
 
 const Hero = () => {
   return (
-    <div className="px-[144px] pt-40">
+    <div className="px-[144px] pt-40 pb-60">
       <div className="max-width mx-auto">
         <div className="flex items-center justify-between">
           {/* Left Section */}
@@ -16,7 +16,7 @@ const Hero = () => {
 
           {/* Right Section */}
           <section className="flex items-end">
-            <img src={ladentistaHero} alt="ladentistaHero" className="self-end" />
+            <img src={ladentistaHero} alt="ladentistaHero" />
           </section>
         </div>
       </div>

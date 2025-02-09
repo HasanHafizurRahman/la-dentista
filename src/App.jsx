@@ -1,14 +1,16 @@
 import "./App.css";
+import Booking from "./components/Booking";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <section className="bg-gradient-to-bl from-primary-1 to-white">
+      <section className="background-gradient-hero">
         <Navbar />
         <Hero />
       </section>
+        <Booking />
     </>
   );
 }
