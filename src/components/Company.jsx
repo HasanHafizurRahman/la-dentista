@@ -3,17 +3,18 @@ import patient from "../assets/patient.png";
 
 const OurCompany = () => {
   return (
-    <div className="max-width mx-auto pt-80">
-      <h2 className="text-3xl font-bold text-center mb-8">Our Company</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div className="max-width mx-auto px-[144px] pt-60">
+      <h2 className="text-3xl font-bold mb-8">Our Company</h2>
+      <div className="grid grid-cols-1 gap-16">
         {/* Mission Section */}
-        <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-start">
+        <div className="bg-white rounded-2xl shadow-lg p-6 flex items-start gap-8">
           <img
             src={dentist}
             alt="Mission Image"
             className="rounded-lg mb-4"
           />
-          <h3 className="text-xl font-semibold text-green-600 mb-2">Our Mission</h3>
+          <div>
+          <h3 className="text-xl font-semibold text-primary-0 mb-2">Our Mission</h3>
           <p className="text-gray-700">
             At La Dentista, our mission is to provide exceptional dental care with
             a focus on patient comfort, cutting-edge technology, and personalized
@@ -21,9 +22,7 @@ const OurCompany = () => {
             confidence, and creating beautiful smiles through high-quality,
             ethical, and compassionate dental services.
           </p>
-          <span className="mt-4 bg-red-500 text-white text-sm font-bold py-1 px-3 rounded-full self-end">
-            1261
-          </span>
+          </div>
         </div>
 
         {/* Vision Section */}
