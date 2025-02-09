@@ -10,9 +10,14 @@
 .background-gradient-hero {
   background: linear-gradient(252deg, #CAD4FF 0%, #DAFFE1 53.69%);
 }
+.background-gradiant-body {
+  background: linear-gradient(127deg, #C2FFCE 0.85%, #E8F5FF 50.43%, #FFF 100%);
+}
 .vertical-line {
   width: 0px;
   height: 134px;
   flex-shrink: 0;
   border-left: 2px solid rgba(0, 0, 0, 0.20);
 }
+
+

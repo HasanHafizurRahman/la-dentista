@@ -11,22 +11,22 @@ const Navbar = () => {
           <div>
             <ul className="flex items-center gap-5">
               <li>
-                <a href="#" className="font-medium">
+                <a href="#" className="font-medium text-lg">
                   Company
                 </a>
               </li>
               <li>
-                <a href="#" className="font-medium">
+                <a href="#" className="font-medium text-lg">
                   Expertise
                 </a>
               </li>
               <li>
-                <a href="#" className="font-medium">
+                <a href="#" className="font-medium text-lg">
                   Responsibilty
                 </a>
               </li>
               <li>
-                <a href="#" className="font-medium">
+                <a href="#" className="font-medium text-lg">
                   Products
                 </a>
               </li>
