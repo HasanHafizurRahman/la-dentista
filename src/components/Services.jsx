@@ -3,9 +3,9 @@ import {
   DentalProductsIcon,
   SupplierTradingIcon,
   MarketingIcon,
-  FosterIcon,
   LifeLineIcon,
-} from "../assets/Icons";
+  FosterIcon,
+} from "../assets/ServiceIcons";
 
 const OurServices = () => {
   return (
