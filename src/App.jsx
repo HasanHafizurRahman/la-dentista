@@ -1,8 +1,11 @@
 import "./App.css";
 import Booking from "./components/Booking";
 import OurCompany from "./components/Company";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import ReasonsToChoose from "./components/ReasonsToChoose";
+import OurServices from "./components/Services";
 
 function App() {
   return (
@@ -20,7 +23,10 @@ function App() {
 
       <section className="background-gradiant-body">
         <OurCompany />
+        <OurServices />
+        <ReasonsToChoose />
       </section>
+      <Footer />
     </>
   );
 }

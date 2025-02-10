@@ -91,6 +91,9 @@ export const tailwindConfigs = plugin.withOptions(
         h5: {
           "@apply text-base": {},
         },
+        p: {
+          "@apply text-[1rem]": {}
+        }
       });
 
       Object.entries(colorThemes).forEach(([key, value]) => {

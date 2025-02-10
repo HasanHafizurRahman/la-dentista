@@ -3,9 +3,9 @@ import patient from "../assets/patient.png";
 
 const OurCompany = () => {
   return (
-    <div className="px-[144px] pt-80 pb-40">
+    <div className="px-[144px] pt-60 pb-10">
       <div className="max-width mx-auto">
-        <h2 className="text-[40px] font-bold mb-8">Our Company</h2>
+        <h2 className="text-[2.5rem] font-bold mb-8">Our Company</h2>
         
         <div className="space-y-16">
           {/* Mission Section */}
@@ -23,7 +23,7 @@ const OurCompany = () => {
               <h3 className="text-3xl font-bold text-green-600 mb-4">
                 Our Mission
               </h3>
-              <p className="text-[16px] leading-relaxed">
+              <p className="leading-relaxed">
                 At La Dentista, our mission is to provide exceptional dental care
                 with a focus on patient comfort, cutting-edge technology, and
                 personalized treatment. We are committed to enhancing oral health,
@@ -40,7 +40,7 @@ const OurCompany = () => {
               <h3 className="text-3xl font-bold text-red-600 mb-4">
                 Our Vision
               </h3>
-              <p className="text-[16px] leading-relaxed">
+              <p className="leading-relaxed">
                 Our vision is to be a leading dental clinic recognized for
                 excellence in patient care, innovation, and community impact.
                 We strive to set new standards in dentistry by embracing modern

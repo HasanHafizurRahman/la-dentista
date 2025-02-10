@@ -7,8 +7,8 @@ const Hero = () => {
         <div className="flex items-center justify-between">
           {/* Left Section */}
           <section>
-            <h1 className="text-[40px] font-bold">Enhance Your Dental Life</h1>
-            <h1 className="text-[40px] text-primary-0 font-bold">
+            <h1 className="text-[2.5rem] font-bold">Enhance Your Dental Life</h1>
+            <h1 className="text-[2.5rem] text-primary-0 font-bold">
               Dental Profession
             </h1>
             <p>La Dentista, Your Digital Partner</p>

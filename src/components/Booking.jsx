@@ -11,8 +11,8 @@ const Booking = () => {
           </div>
           <div>
             <h3 className="text-2xl font-semibold mb-2">Contact Us</h3>
-            <p className="text-gray-600 text-[16px]">+88 (0172) 293-8124</p>
-            <p className="text-gray-600 text-[16px]">info@ladentista.net</p>
+            <p className="text-gray-600">+88 (0172) 293-8124</p>
+            <p className="text-gray-600">info@ladentista.net</p>
             <button className="mt-4 px-6 py-2 bg-primary-0 hover:bg-[#AD2423] text-white rounded-xl text-sm">
               Book appointment
             </button>
@@ -29,13 +29,13 @@ const Booking = () => {
           </div>
           <div>
             <h3 className="text-2xl font-semibold mb-2">Open Hours</h3>
-            <p className="text-gray-600 text-[16px]">
+            <p className="text-gray-600">
               <span className="text-primary-0 font-semibold">Mon - Fri:</span> 9:00 AM to 5:00 PM
             </p>
-            <p className="text-gray-600 text-[16px]">
+            <p className="text-gray-600">
               <span className="text-primary-0 font-semibold">Saturday:</span> 9:00 AM to 8:00 PM
             </p>
-            <p className="text-gray-600 text-[16px]">
+            <p className="text-gray-600">
               <span className="text-primary-0 font-semibold">Sunday:</span> 9:00 AM to 8:00 PM
             </p>
           </div>
@@ -51,9 +51,9 @@ const Booking = () => {
           </div>
           <div>
             <h3 className="text-2xl font-semibold mb-2">Services</h3>
-            <p className="text-gray-600 text-[16px]">Cosmetic dentist</p>
-            <p className="text-gray-600 text-[16px]">Dental Implants</p>
-            <p className="text-gray-600 text-[16px]">Teeth Whitening</p>
+            <p className="text-gray-600">Cosmetic dentist</p>
+            <p className="text-gray-600">Dental Implants</p>
+            <p className="text-gray-600">Teeth Whitening</p>
           </div>
         </div>
       </div>
